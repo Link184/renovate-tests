@@ -2,5 +2,67 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:recommended"
+  ],
+  "enabled": true,
+  "ignoreTests": true,
+  "dependencyDashboardApproval": true,
+  "packageRules": [
+    {
+      "matchUpdateTypes": [
+        "patch"
+      ],
+      "automerge": false,
+      "automergeType": "branch",
+      "dependencyDashboardApproval": false
+    },
+    {
+      "matchManagers": [
+        "swift"
+      ],
+      "enabled": false
+    }
+  ],
+  "ignorePaths": [
+    "profiler/benchmark-runs/**"
+  ],
+  "ignoreDeps": [
+    "androidx.compose.foundation:foundation-layout",
+    "ch.migros.app.android.android-library-compose-convention",
+    "ch.migros.app.android.android-library-convention",
+    "ch.migros.app.android.android-library-flavors-config-convention",
+    "ch.migros.app.android.android-library-flavors-convention",
+    "ch.migros.app.android.android-library-robolectric-convention",
+    "ch.migros.app.android.android-test-convention",
+    "ch.migros.app.android.application-convention",
+    "ch.migros.app.android.hilt-convention",
+    "ch.migros.app.android.kotlin-library-convention",
+    "ch.migros.app.android.layer-data-convention",
+    "ch.migros.app.android.layer-domain-convention",
+    "ch.migros.app.android.layer-presentation-convention",
+    "ch.migros.app.android.snapshot-test-convention",
+    "ch.migros.app.kmp.dependency-injection-convention",
+    "ch.migros.app.kmp.kmp-feature-module-convention",
+    "ch.migros.app.kmp.kmp-infrastructure-module-convention",
+    "ch.migros.app.kmp.kmp-library-convention",
+    "ch.migros.app.kmp.migrosapp-library-convention",
+    "ch.migros.app.kmp.network-convention",
+    "ch.migros.app.kmp.presentation-library-convention",
+    "ch.migros.app.kmp.tracking-events-generator",
+    "ch.migros.app.kmp.unit-test-convention",
+    "ch.migros.app.konsist-test-convention",
+    "ch.migros.app:migros-library",
+    "com.github.castorflex.smoothprogressbar:library",
+    "com.github.chuckerteam.chucker:library",
+    "com.google.android.material:material",
+    "com.google.guava:guava",
+    "com.squareup:kotlinpoet-ksp",
+    "com.squareup:kotlinpoet",
+    "com.squareup.leakcanary:leakcanary-android",
+    "com.squareup.picasso:picasso",
+    "org.mockito:mockito-core",
+    "org.ocpsoft.prettytime:prettytime",
+    "se.emilsjolander:stickylistheaders",
+
+    "io.mockk:mockk"
   ]
 }
