@@ -12,6 +12,7 @@ kidAdapetr = "1.4.1"
 delegates = "1.1.2"
 coroutines = "1.0.0"
 mockkery = "2.0.0"
+qrcode = "3.0.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -31,6 +32,7 @@ androidx-material3 = { group = "androidx.compose.material3", name = "material3" 
 kid-adapter = { group = "com.link184", name = "kid-adapter", version.ref = "kidAdapetr" }
 delegates = { group = "com.link184", name = "lifecycle-delegates", version.ref = "delegates" }
 test-kotlin-coroutines = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-test", version.ref = "coroutines" }
+multiplatform-qrcode = { group = "network.chaintech", name = "qr-kit", version.ref = "qrcode" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

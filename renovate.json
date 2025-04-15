@@ -6,6 +6,7 @@
   "enabled": true,
   "automerge": true,
   "automergeType": "branch",
+  "branchConcurrentLimit": 1,
   "timezone": "Europe/Zurich",
   "schedule": ["* 0-4 * * *"],
   "packageRules": [
