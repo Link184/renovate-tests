@@ -4,14 +4,14 @@
     "config:recommended"
   ],
   "enabled": true,
+  "automerge": true,
+  "automergeType": "pr",
   "ignoreTests": true,
-  "dependencyDashboardApproval": true,
   "packageRules": [
     {
       "matchUpdateTypes": [
         "patch"
       ],
-      "automerge": false,
       "automergeType": "branch",
       "dependencyDashboardApproval": false
     },
@@ -62,7 +62,6 @@
     "org.mockito:mockito-core",
     "org.ocpsoft.prettytime:prettytime",
     "se.emilsjolander:stickylistheaders",
-
     "io.mockk:mockk"
   ]
 }
