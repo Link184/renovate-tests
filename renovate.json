@@ -6,6 +6,8 @@
   "enabled": true,
   "automerge": true,
   "automergeType": "branch",
+  "timezone": "Europe/Zurich",
+  "schedule": ["* 0-4 * * *"],
   "packageRules": [
     {
       "matchUpdateTypes": [
