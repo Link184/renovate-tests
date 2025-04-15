@@ -9,6 +9,8 @@
   "branchConcurrentLimit": 1,
   "timezone": "Europe/Zurich",
   "schedule": ["* 0-4 * * *"],
+  "automergeSchedule": ["* 0-4 * * *"],
+  "rebaseWhen": "automerging",
   "packageRules": [
     {
       "matchUpdateTypes": [
