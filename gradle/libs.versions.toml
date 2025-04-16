@@ -12,7 +12,7 @@ kidAdapetr = "1.4.1"
 delegates = "1.1.2"
 coroutines = "1.0.0"
 mockkery = "2.7.2"
-qrcode = "3.0.0"
+qrcode = "2.0.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
