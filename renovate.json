@@ -6,9 +6,10 @@
   "enabled": true,
   "automerge": true,
   "automergeType": "branch",
-  "branchConcurrentLimit": 1,
+  "branchConcurrentLimit": 2,
   "timezone": "Europe/Zurich",
   "rebaseWhen": "automerging",
+  "commitMessageSuffix": "[by renovate]",
   "packageRules": [
     {
       "matchManagers": [
