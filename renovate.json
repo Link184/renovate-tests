@@ -9,7 +9,7 @@
   "branchConcurrentLimit": 2,
   "timezone": "Europe/Zurich",
   "rebaseWhen": "automerging",
-  "commitMessageSuffix": "[by renovate] {{currentVersionTimestamp}}",
+  "commitMessage": "{{{commitMessagePrefix}}} {{{commitMessageAction}}} {{{commitMessageTopic}}} {{{commitMessageExtra}}} {{{commitMessageSuffix}}} \\n [by renovate] {{currentVersionTimestamp}}",
   "packageRules": [
     {
       "matchManagers": [
