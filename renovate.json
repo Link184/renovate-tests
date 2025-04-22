@@ -5,11 +5,11 @@
   ],
   "enabled": true,
   "automerge": true,
-  "automergeType": "branch",
-  "branchConcurrentLimit": 2,
+  "automergeType": "pr",
+  "branchConcurrentLimit": 1,
   "timezone": "Europe/Zurich",
   "rebaseWhen": "automerging",
-  "commitMessage": "{{{commitMessagePrefix}}} {{{commitMessageAction}}} {{{commitMessageTopic}}} {{{commitMessageExtra}}} {{{commitMessageSuffix}}} \\n [by renovate] {{currentVersionTimestamp}}",
+  "commitMessageSuffix": "[by renovate]",
   "packageRules": [
     {
       "matchManagers": [
