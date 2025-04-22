@@ -11,7 +11,7 @@ composeBom = "2025.04.00"
 kidAdapetr = "1.4.1"
 delegates = "1.1.2"
 coroutines = "1.10.2"
-mockkery = "2.7.0"
+mockkery = "2.7.2"
 qrcode = "3.0.6"
 
 [libraries]
