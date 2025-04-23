@@ -6,7 +6,6 @@
   "enabled": true,
   "automerge": true,
   "automergeType": "pr",
-  "platformAutomerge": false,
   "branchConcurrentLimit": 1,
   "prConcurrentLimit": 1,
   "timezone": "Europe/Zurich",
