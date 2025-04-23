@@ -10,7 +10,6 @@
   "prConcurrentLimit": 1,
   "timezone": "Europe/Zurich",
   "rebaseWhen": "automerging",
-  "draftPR": true,
   "commitMessageSuffix": "[by renovate]",
   "packageRules": [
     {
